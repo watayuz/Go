@@ -1,6 +1,5 @@
 package main
 
-// JSONとするのはグローバルとローカルの名前の衝突を回避するため
 import (
 	"encoding/json"
 	"fmt"

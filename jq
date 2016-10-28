@@ -1,0 +1,1 @@
+{Period:yy ExecPeriod:{Start:{Month:1 Week:2 Day:3 Hour:4 Minute:5} End:{Month:6 Week:7 Day:8 Hour:9 Minute:10}} Backup:[{LocalDir:directoryLo1 ServerDir:directoryLo2 ServerHost:domaineName} {LocalDir:directoryLo1 ServerDir:directorySe2 ServerHost:domaineName}] IncrementalSave:1Y2M}

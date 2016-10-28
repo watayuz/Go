@@ -1,0 +1,32 @@
+{
+  "period": "yy",
+  "exec_period": {
+    "start": {
+      "month": 1,
+      "week": 2,
+      "day": 3,
+      "hour": 4,
+      "minute": 5
+    },
+    "end": {
+      "month": 6,
+      "week": 7,
+      "day": 8,
+      "hour": 9,
+      "minute": 10
+    }
+  },
+  "backup": [
+    {
+      "local_dir": "directoryLo1",
+      "server_dir":  "directoryLo2",
+      "server_host": "domaineName"
+    },
+    {
+      "local_dir": "directoryLo1",
+      "server_dir":  "directorySe2",
+      "server_host": "domaineName"
+    }
+  ],
+  "incremental_save": "1Y2M"
+}
