@@ -22,7 +22,7 @@ func doRequest(rw http.ResponseWriter, request *http.Request) {
 	method := request.Method
 	request.ParseForm()
 	values := request.Form
-	
+
 	fmt.Println(method)
 	fmt.Println(values)
 }
