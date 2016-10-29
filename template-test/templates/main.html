@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>go test range</title>
+</head>
+<body>
+
+	<h1>Go template test</h1>
+	<p>Title -- {{.Title}}</p>
+	<p>Message -- {{.Message}}</p>
+
+	<div>
+		<h3>Range Itemss</h3>
+		{{range .List}}
+		<p>{{.}}</p>
+		{{end}}
+	</div>
+
+	<div>
+		Link: {{.Link}}
+	</div>
+
+</body>
+</html>
