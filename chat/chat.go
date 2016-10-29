@@ -15,7 +15,7 @@ type SettingJson struct {
 func main() {
 
 	url_string := "https://chatbot-api.userlocal.jp/api/chat?"
-	key := "807bf852d859526214b6"
+	key := ""
 
 	error := HttpPost(url_string, key, "こんにちわ")
 
