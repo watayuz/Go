@@ -10,3 +10,9 @@
 Irisを使った  
 Iris強い  
 描画されるHTMLは `templates/` の直下を参照するようになっている  
+
+## Standard
+外部ライブラリを使わないもの
+
+## Go-Json-Rest
+go-json-restライブラリを使ったもの
