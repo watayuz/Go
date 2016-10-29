@@ -23,6 +23,7 @@ go-json-restライブラリを使ったもの
 ```
 package config  
 import()  
-var Key string = "api_key"  
+var Key string = "api_key"
 '''
+
 を追加する  
