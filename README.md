@@ -20,7 +20,7 @@ go-json-restライブラリを使ったもの
 ## chat
 使うときには  
 同じディレクトリにconfigを作成、その直下のconfig.goに以下を記述する  
-```
+```Go:config.go
 package config  
 import()  
 var Key string = "api_key"
