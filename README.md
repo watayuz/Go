@@ -16,3 +16,10 @@ Iris強い
 
 ## Go-Json-Rest
 go-json-restライブラリを使ったもの
+
+## chat
+使うときには
+`package config
+import()
+var Key string = "api_key"`  
+を追加する
